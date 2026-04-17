@@ -23,7 +23,7 @@ npm install lucide-react framer-motion class-variance-authority clsx tailwind-me
 
 ## Como Adaptar 
 
-Na pasta app, o código do portfólio com comentários está em page.tsx e mostra como foi a lógica do desenvolvimento do portfólio, foi apenas ele que eu editei e coloquei.
+Na pasta app, o código do portfólio com comentários está em page.tsx e mostra como foi a lógica do desenvolvimento do portfólio, foi apenas ele que eu editei e implementei toda a estrutura que eu queria do projeto, mas ainda pretendo deixar mais comentado e explicativo o arquivo.
 
 
 ## Explicação do Uso das Ferramentas
