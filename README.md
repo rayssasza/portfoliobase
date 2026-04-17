@@ -28,6 +28,7 @@ Na pasta app, o código do portfólio com comentários está em page.tsx e mostr
 
 ## Explicação do Uso das Ferramentas
 
+
 ## Tailwind
 Normalmente você dá um nome para um elemento no HTML e vai para outro arquivo (style.css) escreve todas as propriedades visuais daquele botão. O problema é que para questões de otimização de tempo eu preferi usar o Tailwind, porque ele inverte essa lógica. Ele é um framework de classes utilitárias e que, ao invés de eu ter o trabalho de ficar indo para o CSS colocar todos os estilos, criando classe .btn-primario por ex, eu crio o visual diretamente no HTML, juntando pequenas peças, sem nunca precisar sair do arquivo JavaScript/HTML.
 
@@ -37,7 +38,7 @@ Normalmente você dá um nome para um elemento no HTML e vai para outro arquivo 
 > No comando CLI ele já instalou o TypeScript.
 
 ## Next.js
-Escolhi Next.js por ser um framework React focado em produção, que traz vantagens como performance e constrói páginas pré-renderizadas, o que melhora muito o carregamento. Sobre as rotas, o Next gerencia com base na estrutura de pastas do projeto. Se eu criar uma pasta "sobre'", ele cria a rota 'rotadosite.com/sobre' automaticamente. É simples e eficiente
+Escolhi Next.js por ser um framework React focado em produção, que traz vantagens como performance e constrói páginas pré-renderizadas, o que melhora muito o carregamento. Sobre as rotas, o Next gerencia com base na estrutura de pastas do projeto. Se eu criar uma pasta "sobre'", ele cria a rota 'rotadosite.com/sobre' automaticamente. É simples e eficiente.
 
 
 ## Design / UX Design
