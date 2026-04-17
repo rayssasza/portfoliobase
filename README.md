@@ -1,7 +1,7 @@
 ## Código Open Source do Portfólio
 
 Esse projeto é como foi feito o código do meu portfólio com comentários explicativos. Ele é um projeto feito com 
-Next.js e para criar toda essa estrutura eu usei o comando CLI ` npx create-next-app@latest`, selecionando "Yes" para Tailwind, App Router e No para src/ directory. Com isso ele automatiza e cria as pastas organizadas, além de também já colocar o link da documentação(<https://nextjs.org/docs/app/api-reference/cli/create-next-app>) com um README.md explicativo, mas eu adaptei o README.md dele (esse aqui) para explicar como foi criado o projeto, mas se for criar seu próprio projeto ele coloca o README.md padrão dele.
+Next.js e para criar toda essa estrutura eu usei o comando CLI `npx create-next-app@latest`, selecionando "Yes" para Tailwind, App Router e No para src/ directory. Com isso ele automatiza e cria as pastas organizadas, além de também já colocar o link da documentação(<https://nextjs.org/docs/app/api-reference/cli/create-next-app>) com um README.md explicativo, mas eu adaptei o README.md dele (esse aqui) para explicar como foi criado o projeto, mas se for criar seu próprio projeto ele coloca o README.md padrão dele.
 
 ## Como Rodar o Projeto
 
@@ -14,7 +14,7 @@ Abra [http://localhost:3000](http://localhost:3000) com seu navegador para ver o
 
 ## Como Organizar
 
-Primeiro digite o comando mencionado anteriormente ` npx create-next-app@latest`, após a criação da pasta app, instale as bibliotecas de animação e utilitários:
+Primeiro digite o comando mencionado anteriormente `npx create-next-app@latest`, após a criação da pasta app, instale as bibliotecas de animação e utilitários:
 
 Comando para instalar as bibliotecas e as dependencias:
 ```bash
