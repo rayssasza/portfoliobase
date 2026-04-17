@@ -5,7 +5,7 @@ Next.js e para criar toda essa estrutura eu usei o comando CLI ` npx create-next
 
 ## Como Rodar o Projeto
 
-Faça o comando no terminal
+Digite o comando no terminal:
 ```bash
 npm run dev
 ```
