@@ -16,7 +16,7 @@ Abra [http://localhost:3000](http://localhost:3000) com seu navegador para ver o
 
 Primeiro digite o comando mencionado anteriormente ` npx create-next-app@latest`, após a criação da pasta app, instale as bibliotecas de animação e utilitários:
 
-Após a criação da pasta app, instale as bibliotecas de animação e utilitários:
+Comando para instalar as bibliotecas e as dependencias:
 ```bash
 npm install lucide-react framer-motion class-variance-authority clsx tailwind-merge
 ```
