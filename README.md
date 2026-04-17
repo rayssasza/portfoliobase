@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Código Open Source do Portfólio
 
-## Getting Started
+Esse projeto é como foi feito o código do meu portfólio com comentários explicativos. Ele é um projeto feito com 
+Next.js e para criar toda essa estrutura eu usei o comando CLI ` npx create-next-app@latest`, selecionando "Yes" para Tailwind, App Router e No para src/ directory. Com isso ele automatiza e cria as pastas organizadas, além de também já colocar o link da documentação(<https://nextjs.org/docs/app/api-reference/cli/create-next-app>) com um README.md explicativo, mas eu adaptei o README.md dele (esse aqui) para explicar como foi criado o projeto, mas se for criar seu próprio projeto ele coloca o README.md padrão dele.
 
-First, run the development server:
+## Como Rodar o Projeto
 
+Faça o comando no terminal
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) com seu navegador para ver o resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Como Organizar
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Primeiro digite o comando mencionado anteriormente ` npx create-next-app@latest`, após a criação da pasta app, instale as bibliotecas de animação e utilitários:
 
-## Learn More
+Após a criação da pasta app, instale as bibliotecas de animação e utilitários:
+```bash
+npm install lucide-react framer-motion class-variance-authority clsx tailwind-merge
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Como Adaptar 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Na pasta app, o código do portfólio com comentários está em page.tsx e mostra como foi a lógica do desenvolvimento do portfólio, foi apenas ele que eu editei e coloquei.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Explicação do Uso das Ferramentas
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tailwind
+Normalmente você dá um nome para um elemento no HTML (ex: <button class="btn-primario">) e vai para outro arquivo (style.css) escrever todas as propriedades visuais daquele botão. O problema é que para questões de otimização de tempo eu preferi usar o Tailwind, porque ele inverte essa lógica. Ele é um framework de classes utilitárias e que, ao invés de eu ter o trabalho de ficar indo para o CSS colocar todos os estilos, criando classe .btn-primario por ex, eu crio o visual diretamente no HTML, juntando pequenas peças, sem nunca precisar sair do arquivo JavaScript/HTML.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## TypeScript
+É uma ferramenta que age como "segurança" do JavaScript, na qual adiciona uma camada de "tipagem estática" por cima. Ele verifica os erros de lógica enquanto o código é digitado, antes dele ir para o navegador. Como o navegador só entende JavaScript, o TypeScript faz o trabalho do segurança e, depois que garante que está tudo perfeito, ele tira a roupa de segurança, "traduz" o código para JavaScript puro e manda para o navegador, isso é chamado de Transpilação (processo de converter código-fonte de uma linguagem de programação para outra).
+
+> No comando CLI ele já instalou o TypeScript.
+
+## Next.js
+Escolhi Next.js por ser um framework React focado em produção, que traz vantagens como performance e constrói páginas pré-renderizadas, o que melhora muito o carregamento. Sobre as rotas, o Next gerencia com base na estrutura de pastas do projeto. Se eu criar uma pasta "sobre'", ele cria a rota 'rotadosite.com/sobre' automaticamente. É simples e eficiente
+
+
+## Design / UX Design
+Escolhi um design inspirado no "Brutalismo" que tem como características autocontraste, formas geómetricas e é bem chamativo e justamente para chamar atenção que eu o escolhi, porque por mais que tenha visto que isso pode ser contra-intuitivo na perspectiva do Design, achei que para o meu currículo em específico faria mais sentido para chamar atenção justamente para o meu trabalho. Usei sombras pretas rígidas, linhas grossas e tipografia forte para atingir esse objetivo.
+
+## Vercel
+Ele é um host de sites, focado principalmente para front-end, isso faz com que a aplicação fique em deploy contínuo na Vercel. Se eu altero o código, automaticamente sobe para o site também. Ele é basicamente uma plataforma de nuvem otimizada, funcionando especialmente para projetos que utilizam a sua framework in-house, o Next.js. Funciona num conceito chamado Edge Network, ou seja, o site é distribuído por servidores em todo o mundo para carregar instantaneamente.
+
