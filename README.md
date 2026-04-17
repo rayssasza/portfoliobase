@@ -1,4 +1,5 @@
 ## Código Open Source do Portfólio
+> Ainda vou reformular ele para ser mais acessível para outras pessoas modificarem e tirar as minhas informações, mas por enquanto vou deixar esse README.md.
 
 Esse projeto é como foi feito o código do meu portfólio com comentários explicativos. Ele é um projeto feito com 
 Next.js e para criar toda essa estrutura eu usei o comando CLI `npx create-next-app@latest`, selecionando _"Yes"_ para *Tailwind, App Router* e _No_ para src/ directory. Com isso ele automatiza e cria as pastas organizadas, além de também já colocar o link da documentação(<https://nextjs.org/docs/app/api-reference/cli/create-next-app>) com um README.md explicativo, mas eu adaptei o README.md dele (esse aqui) para explicar como foi criado o projeto e se for criar seu próprio projeto ele coloca o README.md padrão dele.
