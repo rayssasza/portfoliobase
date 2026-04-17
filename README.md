@@ -42,7 +42,7 @@ Escolhi Next.js por ser um framework React focado em produção, que traz vantag
 
 
 ## Design / UX Design
-Escolhi um design inspirado no "Brutalismo" que tem como características autocontraste, formas geómetricas e é bem chamativo e justamente para chamar atenção que eu o escolhi, porque por mais que tenha visto que isso pode ser contra-intuitivo na perspectiva do Design, achei que para o meu currículo em específico faria mais sentido para chamar atenção justamente para o meu trabalho. Usei sombras pretas rígidas, linhas grossas e tipografia forte para atingir esse objetivo.
+Escolhi um design inspirado no "Brutalismo" que tem como características autocontraste, formas geómetricas e é bem chamativo e justamente por chamar atenção que eu o escolhi, porque por mais que tenha visto que isso pode ser contra intuitivo na perspectiva do Design, achei que para o meu currículo em específico faria mais sentido para chamar atenção  para o meu trabalho. Usei sombras pretas rígidas, linhas grossas e tipografia forte para atingir esse objetivo.
 
 ## Vercel
 Ele é um host de sites, focado principalmente para front-end, isso faz com que a aplicação fique em deploy contínuo na Vercel. Se eu altero o código, automaticamente sobe para o site também. Ele é basicamente uma plataforma de nuvem otimizada, funcionando especialmente para projetos que utilizam a sua framework in-house, o Next.js. Funciona num conceito chamado Edge Network, ou seja, o site é distribuído por servidores em todo o mundo para carregar instantaneamente.
